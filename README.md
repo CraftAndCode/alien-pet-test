@@ -1,31 +1,76 @@
+### @autoOpen = true
+### ~avatar
+Hello! Welcome to MakeCode, a place where you can program your Micro:bit to do fantastic things!
+### ~
+## Your first steps in the world of coding
+We strongly recommend you to start with completing these three tutorials.
 
-> Open this page at [https://craftandcode.github.io/alien-pet-test/](https://craftandcode.github.io/alien-pet-test/)
+```codecard
+[
+{
+    "name": "1.1 Your first program",
+    "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/Shablon/master/Petimage.svg",
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/your-first-program", 
+    "description": "Learn to use MakeCode blocks to say hello", 
+    "cardType": "tutorial",
+    "label": "New? Start here!",
+    "labelClass": "purple ribbon huge"
+},
+{
+    "name": "1.2 Showing pictures",
+    "imageUrl":"https://github.com/CraftAndCode/Shablon/blob/master/Smileyface.jpg?raw=true",
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/showing-pictures", 
+    "description": "Display images and animations with your Micro:bit", 
+    "cardType": "tutorial",
+    "label": "Easy",
+    "labelClass": "green ribbon small"
+},
+{
+    "name": "1.3 Using buttons",
+    "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/alien-pet/master/Pulse.gif",
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/using-buttons", 
+    "description": "Make your Micro:bit react when buttons are pressed", 
+    "cardType": "tutorial",
+    "label": "Easy",
+    "labelClass": "green ribbon small"
+}
+]
+```
+## Alien pet
+This is a program for your alien pet and instructions on how to modify it. This will require some skills.
+```codecard
+[
+{
+    "name": "Get to know your alien pet!",
+    "imageUrl":"https://github.com/CraftAndCode/Shablon/blob/master/Testgif.gif?raw=true",
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/alien-pet-test/alienpet", 
+    "description": "Modify the code for your alien pet with our help", 
+    "cardType": "tutorial",
+    "label": "Advanced",
+    "labelClass": "orange ribbon small"
+}
+]
+```
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/craftandcode/alien-pet-test** and import
-
-## Edit this project ![Build status badge](https://github.com/craftandcode/alien-pet-test/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/craftandcode/alien-pet-test** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/craftandcode/alien-pet-test/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## Blocks encyclopedia
+### ~avatar
+Welcome to the block encyclopedia where you can learn everything about using specific blocks!
+### ~
+```cards
+basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showIcon(IconNames.Heart)
+    basic.showString("Hello!")
+    basic.showArrow(ArrowNames.North)
+input.onButtonPressed(Button.A, function () {
+	
+})
+basic.forever(function () {
+    
+})
+```
